@@ -1,0 +1,7 @@
+[
+    { "id": 0, "answer": ""},
+    { "id": 1, "answer": "Para definir un componente, se puede crear una constante o una función. Si se hace como función, se define en un archivo JS nuevo una función con el mismo nombre del componente y en mayúscula."},
+    { "id": 2, "answer": "Para definir un nuevo estado, primero se crea una constante const [estado, setEstado], en donde 'estado' equivale al nombre del estado y 'setEstado' a la función que se usará para definir/cambiar su valor. Al lado de esta definición se escribe useState(value), donde 'value' equivale al valor inicial. Para esto, hay que importar useSate de react."},
+    { "id": 3, "answer": "Verdadero. Dentro de useState se puede crear una función que retorne el valor inicial del estado, permitiendo que no sea necesariamente un valor fijo."},
+    { "id": 4, "answer": "/answer4.png"}
+]

@@ -1,0 +1,7 @@
+[
+    { "id": 0, "question": "Hoy vamos a hacer un quiz sobre React y useState"},
+    { "id": 1, "question": "¿Cómo se define un nuevo componente en React?"},
+    { "id": 2, "question": "¿Cómo se define un nuevo estado?"},
+    { "id": 3, "question": "F o V ... El inicializador del estado puede ser una función"},
+    {"id": 4, "question": "¿Qué es el Virtual DOM?"}
+]
