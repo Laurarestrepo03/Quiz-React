@@ -12,7 +12,7 @@ function App(){
     const renderTitle = () => { return titleData.find(item => item.id === title).title }; 
     const renderQuestion = () => { return questionData.find(item => item.id === question).question };
     const renderAnswer = () => { 
-        if (answer === 4){ return <img class="Image" src={answerData.find(item => item.id === answer).answer} alt="Virtual DOM"/> }
+        if (answer === 4){ return <img className="Image" src={answerData.find(item => item.id === answer).answer} alt="Virtual DOM"/> }
         else { return answerData.find(item => item.id === answer).answer }
         };
 
@@ -22,22 +22,21 @@ function App(){
 
     return(
         <div>
-            <div name="Botones" class="Buttons">
-                <button type="button" class="Button" onClick={handleRestart}> Restart </button>
-                <button type="button" class="Button" onClick={handlePrev}> Prev </button>
-                <button type="button" class="Button" onClick={handleNext}> Next </button>
+            <div name="Botones" className="Buttons">
+                <button type="button" className="Button" onClick={handleRestart}> Restart </button>
+                <button type="button" className="Button" onClick={handlePrev}> Prev </button>
+                <button type="button" className="Button" onClick={handleNext}> Next </button>
             </div>   
             <hr></hr>
             <div name="Titulo&PRegunta">
-                <div class="Title">{renderTitle()}</div>
-                <div class="Question">{renderQuestion()}</div>
+                <div className="Title">{renderTitle()}</div>
+                <div className="Question">{renderQuestion()}</div>
             </div>
             <hr></hr>
             <div name="Respuesta">
-                <div class="Answer">{renderAnswer()}</div>
+                <div className="Answer">{renderAnswer()}</div>
             </div>
-        </div>
-        
+        </div> 
     );
 }
 
