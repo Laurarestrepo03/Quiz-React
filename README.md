@@ -1,6 +1,5 @@
-## Iniciar aplicación
-`npm start`
-
-## Instalaciones si no funciona
+## Instalaciones previas
 `npm install`
 
+## Iniciar aplicación
+`npm start`
