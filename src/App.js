@@ -28,7 +28,7 @@ function App(){
                 <button type="button" className="Button" onClick={handleNext}> Next </button>
             </div>   
             <hr></hr>
-            <div name="Titulo&PRegunta">
+            <div name="Titulo&Pregunta">
                 <div className="Title">{renderTitle()}</div>
                 <div className="Question">{renderQuestion()}</div>
             </div>
